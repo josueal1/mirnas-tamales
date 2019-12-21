@@ -1,0 +1,8 @@
+
+# Visual Studio Code Workspace Settings
+.vscode/
+
+
+# Local Python Virtual Environment Settings
+
+env/
