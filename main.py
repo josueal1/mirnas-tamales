@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1> Header to be committed to master -> prod </h1>"
+    return "Header to be committed to master -> prod"
 
 
 
