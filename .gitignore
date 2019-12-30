@@ -1,8 +1,9 @@
-
 # Visual Studio Code Workspace Settings
 .vscode/
 
 
 # Local Python Virtual Environment Settings
-
 env/
+
+# MacBook Caching Files
+.DS_Store
