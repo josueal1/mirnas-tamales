@@ -4,6 +4,12 @@
 
 # Local Python Virtual Environment Settings
 env/
+venv/
 
 # MacBook Caching Files
 .DS_Store
+
+
+.env
+
+__pycache__/
