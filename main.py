@@ -1,6 +1,8 @@
 from flask import Flask, render_template
+from bugsnag.flask import handle_exceptions
 import os
 import bugsnag
+
 
 app = Flask(__name__)
 
@@ -10,6 +12,8 @@ bugsnag.configure(
 )
 
 @app.route("/")
+handle_exceptions(app)
+
 def index():
     return render_template("gallery.html")
 
