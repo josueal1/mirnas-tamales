@@ -1,2 +1,2 @@
 # mirna-tamales
-Small-Family Informational Business Website
+Small-Business Family-Owned Website
