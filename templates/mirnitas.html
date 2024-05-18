@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirnita's</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aptos:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Aptos', sans-serif;
+            background-color: #f8f9fa;
+            color: #2a2a2a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #004B87; /* Salvadoran flag blue */
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+        .content {
+            max-width: 800px;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #004B87; /* Salvadoran flag blue */
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            color: #004B87; /* Salvadoran flag blue */
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #004B87; /* Salvadoran flag blue */
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+        }
+        .contact {
+            background-color: #004B87; /* Salvadoran flag blue */
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 40px; /* Added margin for whitespace */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mirna's Pupusas</h1>
+    </header>
+    <div class="content">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>Mirnita's is a Salvadoran family business established in 1999. We brought the authentic flavors of La Paz, El Salvador to Los Angeles, CA. Now we are proud to serve our delicious pupusas all over the Greater LA and High Desert area.</p>
+        </div>
+        <div class="section">
+            <h2>Our Story</h2>
+            <p>Our journey started with a passion for sharing the traditional Salvadoran dish, pupusas, with our community. With fresh ingredients and time-honored recipes, we aim to bring a little taste of El Salvador to every plate.</p>
+        </div>
+        <div class="section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <div>
+                    <h4>Cheese Pupusas</h4>
+                    <img src="https://raw.githubusercontent.com/josueal1/mirnas-tamales/master/static/images/cheese-pupusas.jpg" alt="Cheese Pupusa">
+                </div>
+                
+                <img src="https://example.com/pupusa2.jpg" alt="Pork Pupusa">
+                <img src="https://example.com/pupusa3.jpg" alt="Bean Pupusa">
+                <img src="https://example.com/pupusa4.jpg" alt="Mixed Pupusa">
+            </div>
+        </div>
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to place an order, feel free to reach out to us at:</p>
+            <div class="contact">
+                <a href="tel:323-439-7005" style="text-decoration: none; color: white;">
+                    <button 
+                        style="background-color: #004B87;
+                        color: white; 
+                        border: none; 
+                        padding: 10px 20px; 
+                        border-radius: 5px; 
+                        cursor: pointer;"
+                    >
+                        Call or Text: 323-439-7005
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Mirnita's. All rights reserved.
+    </footer>
+</body>
+</html>
